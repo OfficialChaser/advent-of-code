@@ -1,6 +1,6 @@
 # Advent of Code Solutions
 
-My personal collection of [Advent of Code](https://adventofcode.com/) solutions from previous years, all written in Python. Working through these puzzles has genuinely helped me grow as a programmer and sharpen my problem solving skills.
+My personal collection of [Advent of Code](https://adventofcode.com/) solutions from previous years, all written in Python. Working through these puzzles has helped me grow as a programmer in terms of sharpening my problem solving skills, and learning to optimize my solutions.
 
 ## How it's organized
 

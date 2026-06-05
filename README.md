@@ -1,36 +1,30 @@
-# Advent of Code — Solutions Collection
+# Advent of Code Solutions
 
-This repository contains my Advent of Code solutions organized by year and day. Each day folder contains a Python solution (`dayN.py`) and the input file used for that puzzle (`dayN.in`).
+My personal collection of [Advent of Code](https://adventofcode.com/) solutions from previous years, all written in Python. Working through these puzzles has genuinely helped me grow as a programmer and sharpen my problem solving skills.
 
-Repository layout
-- `2016/`, `2021/`, `2022/`, `2023/`, `2024/`, `2025/` — top-level year folders
-- Each year contains `dayX/` subfolders (e.g. `day1/`) with:
-  - `dayX.py` — solution script (Python)
-  - `dayX.in` — puzzle input used by the script
+## How it's organized
 
-Running solutions
-- Requirements: Python 3.8+ (no external packages required unless a solution states otherwise).
-- Run a solution from the repository root. Example (Unix-like shells or WSL):
+Solutions are grouped by year (`2016/`, `2021/`, `2022/`, `2023/`, `2024/`, `2025/`), and each year has a folder per day:
 
+```
+2024/
+  day3/
+    day3.py   # solution script
+    day3.in   # my puzzle input
+```
+
+## Running a solution
+
+Each script reads from stdin and prints to stdout. From the repo root:
+
+**Unix/WSL:**
 ```bash
 python 2024/day3/day3.py < 2024/day3/day3.in
 ```
 
-On Windows PowerShell you can use:
-
+**Windows PowerShell:**
 ```powershell
 Get-Content 2024\day3\day3.in | python 2024\day3\day3.py
 ```
 
-Notes and conventions
-- Solutions are written as standalone scripts that read input from stdin and print results to stdout.
-- Filenames follow the `dayN.py` / `dayN.in` pattern for easy discovery and execution.
-
-Contributing
-- To add a solution: create a new `dayX/` folder under the appropriate year with `dayX.py` and `dayX.in`.
-- Follow the existing style: simple scripts, clear variable names, and minimal external dependencies.
-
-License
-- No license specified. Add a `LICENSE` file if you want to set repository licensing.
-
-Enjoy exploring the puzzles and solutions!
+Just Python 3.8+ required, no external packages.
